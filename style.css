@@ -13,7 +13,9 @@
      
      
     }
-    
+    body{
+      overflow-x: hidden;
+    }
     nav{
       display: flex;
       justify-content: space-between;
@@ -22,9 +24,7 @@
       
       
     }
-    .img2{
-      
-    } 
+    
     .img2 img {
     position: absolute;
     left: 0px;
@@ -754,7 +754,92 @@ footer ul a{
   left: 45px;
   color: #7bb3d8;
 }
+@media only screen and (max-width:768px){
+ 
+  .mainp1{
+    position: relative;
+    right: 100px;
+  }
+  .img-box{
+visibility: hidden
+  }
+  .super1 img{
+position: relative;
+right: 150px;
+top: 100px;
+  }
+  .why{
+  visibility: hidden;
 
+  }
+  .super1 h3 {
+    position: absolute;
+  left: -160px;
+    top: 0px;
+  }
+  .super1 p{
+    position: absolute;
+    left: -140px;
+      top: 30px;
+  }
+  .super2 h3{
+    position: absolute;
+    left: -560px;
+      top: 210px;
+  }
+  .super2 p{
+    position: absolute;
+    left: -520px;
+      top: 240px;
+  }
+  .super2 img{
+    position: relative;
+    right: 550px;
+    top: 340px;
+      }
+      .super3 h3{
+        position: absolute;
+        left: -790px;
+          top: 310px;
+      }
+      .super3 p{
+        position: absolute;
+        left: -780px;
+          top: 360px;
+      }
+      .super3 img{
+        position: relative;
+        right: 780px;
+        top: 440px;
+          }
+          .left{
+            position: relative;
+            top: 550px;
+          }
+          .maindiv img{
+            position: relative;
+            width: 350px;
+            left: -330px;
+            top: 600px;
+          }
+          .maindiv h3{
+            position: relative;
+            top: 700px;
+            left: -300px;
+          }
+          .maindiv p{
+            position: relative;
+            top: 700px;
+            left: -300px;
+          }
+          .right img {
+         visibility: hidden;
+          }
+footer{
+  position: relative;
+  top: 1200px;
+}
+}
 
 
 
